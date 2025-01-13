@@ -1,0 +1,12 @@
+# Ignore the sorting file for MacOS
+*.DS_Store
+
+# Ignore compilation information of the model
+slprj/
+
+# Ignore model cache
+*.slxc
+*.slx.autosave
+
+# Ignore old model versions
+*.slx.r20???
