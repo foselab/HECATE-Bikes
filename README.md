@@ -1,6 +1,6 @@
 # Test Case Generation for Simulink® Models: An Experience from the E-Bike Domain
 
-This repository contains the necessary files to replicate a series of tests described in the _Test Case Generation for Simulink® Models: An Experience from the E-Bike Domain_ paper (ADD LINK/REFERENCE). The tests involve using the [Hecate](https://github.com/Hecate-SBST/Hecate) tool for test case generation and Simulink models to evaluate system behavior against defined requirements.
+This repository contains the necessary files to replicate a series of tests described in the _Test Case Generation for Simulink® Models: An Experience from the E-Bike Domain_ paper. The tests involve using the [Hecate](https://github.com/Hecate-SBST/Hecate) tool for test case generation and Simulink models to evaluate system behavior against defined requirements.
 
 ## Repository Folders
 
