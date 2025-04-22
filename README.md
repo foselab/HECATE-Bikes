@@ -62,6 +62,9 @@ When the user changes the Test Sequence Scenario or the Assessment Scenario, bot
 `
 Wilcoxon Rank Sum Test on average number of iterations
 {'statistic': 0.037904902178945175, 'p_value': 0.9697635044861096, 'reject_null': False, 'effect_size': -0.11923687194166115, 'confidence_interval': (-4.8031564689160655, 3.5013173884562923)}
+`
+
+`
 Wilcoxon Rank Sum Test on times
 {'statistic': 0.16262867961000602, 'p_value': 0.8708108045360416, 'reject_null': False, 'effect_size': -0.24753480517182908, 'confidence_interval': (-4915.796179129435, 2388.6628457961033)}
 `
