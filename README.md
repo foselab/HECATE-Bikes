@@ -10,7 +10,8 @@ The folder contains:
 - two Simulink models (Buck and PWM)
 - a script to run Hecate on them
 - an initialization file containing model parameters.
-- an Excel file containing the results of our experiments
+- an Excel file containing the results of our experiments.
+- a Python script performing the statistical tests between number of iterations and time, for the comparison between Uniform Random and Simulated Annealing.
 
 ## Requirements
 
@@ -55,6 +56,16 @@ In the _runTest_ script, the user can change:
 - the _Test Assessment Scenario_ changing the _hecateOpt.assessment_scenario_ variable (3 available scenarios)
 
 When the user changes the Test Sequence Scenario or the Assessment Scenario, both must be activated from the Simulink Model by opening the _Test Sequence_ Block and the _Test Assessment_ Block and selecting the right scenario in the Tab Scenarios. The chosen scenario has a little thunderbolt icon.
+
+## Statistical test results
+
+`
+Wilcoxon Rank Sum Test on average number of iterations
+{'statistic': 0.037904902178945175, 'p_value': 0.9697635044861096, 'reject_null': False, 'effect_size': -0.11923687194166115, 'confidence_interval': (-4.8031564689160655, 3.5013173884562923)}
+Wilcoxon Rank Sum Test on times
+{'statistic': 0.16262867961000602, 'p_value': 0.8708108045360416, 'reject_null': False, 'effect_size': -0.24753480517182908, 'confidence_interval': (-4915.796179129435, 2388.6628457961033)}
+`
+
 
 ## Contributors
 
