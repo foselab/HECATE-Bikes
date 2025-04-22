@@ -10,6 +10,7 @@ The folder contains:
 - two Simulink models (Buck and PWM)
 - a script to run Hecate on them
 - an initialization file containing model parameters.
+- an Excel file containing the results of our experiments
 
 ## Requirements
 
